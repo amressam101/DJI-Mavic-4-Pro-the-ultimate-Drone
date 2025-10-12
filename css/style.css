@@ -1,0 +1,1500 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Exo", sans-serif;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body::selection {
+    background-color: #8E51FF;
+    color: white;
+}
+
+/* =================== Global Style ================== */
+
+
+/* ==================Start Style Section Nave Bare===================== */
+
+#nave-bar {
+    background-color: #F5F3FF;
+    border: solid 1px #DDD6FF;
+    padding-block: 20px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#nave-bar .nave-log {
+    width: 50%;
+    float: left;
+}
+
+#nave-bar .nave-log .nave-image {
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-color: #8E51FF;
+    border-radius: 8px;
+    position: relative;
+    margin-right: 10px;
+}
+
+#nave-bar .nave-log .nave-image img {
+    width: 60%;
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+
+}
+
+#nave-bar .nave-log .nave-title {
+    float: left;
+    margin-top: 6px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: black;
+}
+
+#nave-bar .nave-menu {
+    width: 50%;
+    float: left;
+}
+
+#nave-bar .nave-menu .list ul li {
+    float: left;
+    margin: 0px 15px;
+}
+
+#nave-bar .nave-menu .list .home li {
+    border-bottom: solid 2px #8023FF;
+}
+
+#nave-bar .nave-menu .list .hr-border li {
+    overflow: hidden;
+}
+
+#nave-bar .nave-menu .list .hr-border li a {
+    color: black;
+}
+
+/* ===========First effect========== */
+
+#nave-bar .nave-menu .list .hr-border li:hover a {
+    color: #7f22fe;
+}
+
+#nave-bar .nave-menu .list .hr-border li .layer {
+    max-width: 100%;
+    border-bottom: 2px solid #8023FF;
+    transform: translateX(-101%);
+    transition: transform 0.3s;
+}
+
+/* ============Second effect============= */
+
+#nave-bar .nave-menu .list .hr-border li:hover .layer {
+    transform: translateX(0%);
+}
+
+#nave-bar .nave-menu .list .home li a {
+    color: #8023FF;
+}
+
+/* ==================End Style Section Nave Bare===================== */
+
+
+/* =============Start Section Style Hero=======================  */
+
+#hero {
+    padding: 60px;
+}
+
+
+#hero .hero-image {
+    float: left;
+    width: 50%;
+}
+
+#hero .hero-image .box-image {
+    background-color: white;
+    width: 80%;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #E0E3E7;
+}
+
+#hero .hero-image .box-image .image img {
+    width: 100%;
+    display: block;
+    border-radius: 20px;
+}
+
+#hero .hero-image .box-image .image {
+    position: relative;
+}
+
+#hero .hero-image .box-image .image .awfar-title {
+    background-color: #8E51FF;
+    border-radius: 20px;
+    padding: 3px 7px;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+#hero .hero-image .box-image .image .awfar-title span {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: white;
+}
+
+#hero .hero-features {
+    width: 50%;
+    float: left;
+}
+
+#hero .hero-features .card-feature {
+    float: left;
+    padding: 4px 12px;
+    margin: 0px 12px 16px 0px;
+    background-color: #A683FF;
+    border-radius: 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+
+#hero .hero-features h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+    line-height: 60px;
+    margin: 0px 0px 16px;
+}
+
+#hero .hero-features h1 span {
+    color: #8E51FF;
+}
+
+#hero .hero-features .hero-title p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    color: black;
+    font-family: sans-serif;
+}
+
+#hero .hero-features .hero-title .price-after {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    color: black;
+    font-family: sans-serif;
+    margin-right: 16px;
+}
+
+#hero .hero-features .hero-title .price-before {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: black;
+    font-family: sans-serif;
+    margin-right: 16px;
+}
+
+#hero .hero-features .hero-title .title-save {
+    background-color: #FFE2E2;
+    color: #E7000B;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    font-family: sans-serif;
+}
+
+
+#hero .hero-features .hero-title .content {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: sans-serif;
+    color: black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+
+
+#hero .hero-features .hero-title .add-card {
+    width: 90%;
+    border: 1px solid #005FCC;
+    background-color: #8E51FF;
+    padding: 16px 32px;
+    margin: 20px 0px;
+    border-radius: 50px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    font-family: sans-serif;
+}
+
+/* ===========First effect========== */
+
+#hero .hero-features .hero-title .add-card:hover {
+    scale: calc(1.03);
+}
+
+#hero .hero-features .hero-title .add-card .image-card {
+    float: left;
+}
+
+#hero .hero-features .hero-title .add-card .image-card img {
+    width: 25px;
+    margin: 0px 12px 0px 160px;
+    display: block;
+}
+
+#hero .hero-features .hero-title .add-card .title-card {
+    float: left;
+}
+
+#hero .hero-features .hero-title .add-card2 {
+    width: 90%;
+    border: 2px solid #D1D5DB;
+    background-color: white;
+    padding: 16px 32px;
+    margin: 20px 0px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    font-family: sans-serif;
+}
+
+/* ============Second effect============= */
+
+#hero .hero-features .hero-title .add-card2:hover {
+    scale: calc(1.03);
+}
+
+#hero .hero-features .hero-title .add-card2 .image-card {
+    float: left;
+}
+
+#hero .hero-features .hero-title .add-card2 .image-card img {
+    width: 25px;
+    margin: 0px 12px 0px 180px;
+    display: block;
+}
+
+#hero .hero-features .hero-title .add-card2 .title-card {
+    float: left;
+}
+
+
+/* =============End Section Style Hero=======================  */
+
+
+/* =============Start Section How We Compare======================= */
+
+#section-compare {
+    padding-block: 60px;
+    background-color: #F7F6FF;
+}
+
+#section-compare .section-title {
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+#section-compare .section-title h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    color: black;
+    font-family: sans-serif;
+    margin-bottom: 16px;
+}
+
+#section-compare .section-title h2 span {
+    color: #8E51FF;
+}
+
+#section-compare .section-title p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: black;
+    font-family: sans-serif;
+
+}
+
+
+#section-compare .section-table {
+    background-color: #FFFFFF;
+    padding: 32px;
+    border: 2px solid #D1D5DB;
+    border-radius: 20px;
+}
+
+#section-compare .section-table table {
+    width: 100%;
+
+}
+
+#section-compare tr {
+    border-bottom: 1px solid #DADEE2;
+}
+
+
+/* =============Start style thead================== */
+
+#section-compare .section-table td.col-one span {
+    padding: 24px 16px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color: black;
+    font-family: sans-serif;
+}
+
+#section-compare .section-table td h2 {
+    margin: 0px 0px 8px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    font-family: sans-serif;
+    color: #333333;
+}
+
+#section-compare .section-table td span {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    font-family: sans-serif;
+    color: #6A7282;
+}
+
+#section-compare .section-table td.col-two {
+    padding: 24px 16px;
+    background-color: #ECE9FF;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+
+#section-compare .section-table td.col-two h2 {
+    margin: 0px 0px 8px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    font-family: sans-serif;
+    color: #7107E7;
+}
+
+#section-compare .section-table td.col-two span {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    font-family: sans-serif;
+    color: #8F54FF;
+}
+
+#section-compare .section-table td.col-three {
+    padding: 24px 16px;
+    text-align: center;
+}
+
+#section-compare .section-table td.col-four {
+    padding: 24px 16px;
+    text-align: center;
+}
+
+#section-compare .section-table td.col-five {
+    padding: 24px 16px;
+    text-align: center;
+
+}
+
+/* =============end style thead================== */
+
+
+/* =============Start style tbody================== */
+
+#section-compare .section-table td {
+    padding: 16px;
+}
+
+#section-compare .section-table td.col-feature .image-td {
+    float: left;
+}
+
+#section-compare .section-table td.col-feature .image-td img {
+    width: 23px;
+    margin: 0px 8px 0px 0px;
+    display: block;
+}
+
+#section-compare .section-table td.col-feature .title-td {
+    float: left;
+}
+
+#section-compare .section-table td.col-feature .title-td span {
+    font-weight: 500;
+    line-height: 24px;
+    font-family: sans-serif;
+    color: #333333;
+}
+
+#section-compare .section-table td.clo-our-product {
+    background-color: #ECE9FF;
+    margin-left: 40px;
+}
+
+#section-compare .section-table td.clo-our-product .box-color {
+    background-color: #8E51FF;
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+}
+
+#section-compare .section-table td.clo-our-product .image-td {
+    float: left;
+}
+
+#section-compare .section-table td.clo-our-product .image-td img {
+    width: 20px;
+    margin: 0px 8px 0px 0px;
+    display: block;
+}
+
+#section-compare .section-table td.clo-our-product .title-td {
+    float: left;
+}
+
+#section-compare .section-table td.clo-our-product .title-td span {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    font-family: sans-serif;
+
+}
+
+#section-compare .section-table td.col-competitor-a {
+    padding: 16px;
+    text-align: center;
+}
+
+#section-compare .section-table td.col-competitor-a span {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #333333;
+    font-family: sans-serif;
+}
+
+#section-compare .section-table td.col-competitor-a.color-red span {
+    color: #F64900;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    font-family: sans-serif;
+
+}
+
+#section-compare .section-table td.col-competitor-a .icon-td {
+    float: left;
+}
+
+#section-compare .section-table td.col-competitor-a .icon-td img {
+    width: 22px;
+    margin: 0px 8px 0px 60px;
+    display: block;
+}
+
+#section-compare .section-table td.col-competitor-a .title-a {
+    float: left;
+}
+
+
+
+#section-compare .section-table td.col-competitor-b {
+    padding: 16px;
+    text-align: center;
+}
+
+
+#section-compare .section-table td.col-competitor-b span {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #333333;
+    font-family: sans-serif;
+}
+
+#section-compare .section-table td.col-competitor-b.color-red span {
+    color: #F64900;
+}
+
+
+#section-compare .section-table td.col-competitor-c {
+    padding: 16px;
+    text-align: center;
+}
+
+#section-compare .section-table td.col-competitor-c span {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #333333;
+    font-family: sans-serif;
+}
+
+#section-compare .section-table td.col-competitor-c.color-red span {
+    color: #F64900;
+}
+
+
+#section-compare .section-table .price {
+    text-align: center;
+    background-color: #ECE9FF;
+}
+
+#section-compare .section-table .price .title-price span {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    font-family: sans-serif;
+    color: #7107E7;
+}
+
+#section-compare .section-table td.col-price-a {
+    text-align: center;
+}
+
+#section-compare .section-table td.col-price-a span {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: black;
+    font-family: sans-serif;
+}
+
+
+#section-compare .section-table td.col-price-b {
+    text-align: center;
+}
+
+#section-compare .section-table td.col-price-b span {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: black;
+    font-family: sans-serif;
+}
+
+#section-compare .section-table td.col-price-c {
+    text-align: center;
+}
+
+#section-compare .section-table td.col-price-c span {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: black;
+    font-family: sans-serif;
+}
+
+#section-compare .section-table td.color {
+    background-color: #ECE9FF;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#section-compare .section-table .out-product .card-stars {
+    text-align: center;
+    padding: 15px 10px;
+}
+
+#section-compare .section-table .out-product .card-product {
+    float: left;
+    width: 25px;
+    margin-right: 5px;
+    margin-bottom: 8px;
+}
+
+#section-compare .section-table .out-product .card-product img {
+    display: block;
+    width: 100%;
+    margin-left: 25px;
+}
+
+#section-compare .section-table .out-product .card-stars span {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #333333;
+    font-family: sans-serif;
+}
+
+#section-compare tr.no-border {
+    border: 0px solid;
+}
+
+/* =============end style tbody================== */
+
+
+#winner {
+    border: 2px solid #E6E7EB;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    width: 25%;
+    margin: 40px auto;
+    padding: 16px 0px 16px 20px;
+}
+
+#winner .image-winner {
+    width: 10%;
+    float: left;
+    margin: 0px 12px 0px 0px;
+}
+
+#winner .image-winner img {
+    width: 100%;
+    display: block;
+}
+
+#winner .title-winner {
+    float: left;
+    color: #00A63D;
+}
+
+#winner .title-winner h4 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    font-family: sans-serif;
+}
+
+#winner .title-winner {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: sans-serif;
+}
+
+/* =============End Section How We Compare======================= */
+
+
+/* =============Start Section Customers Say=======================  */
+
+#section-3 {
+    padding: 80px 0px;
+}
+
+#section-3 .info-section-3 {
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+#section-3 .info-section-3 h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    color: black;
+    font-family: sans-serif;
+    margin: 0px 0px 16px;
+}
+
+#section-3 .info-section-3 h2 span {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #8023FF;
+}
+
+#section-3 .info-section-3 p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: black;
+    font-family: sans-serif;
+}
+
+#section-3 .card-left {
+    width: 30%;
+    background-color: white;
+    border: 2px solid #E6E7EB;
+    border-radius: 20px;
+    float: left;
+    padding: 32px;
+    margin-right: 50px;
+    text-align: center;
+    position: sticky;
+    top: 40px;
+
+}
+
+#section-3 .card-left .stars-image {
+    text-align: center;
+    margin: 0px 0px 32px;
+
+}
+
+#section-3 .card-left .stars-image h2 {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    color: black;
+    font-family: sans-serif;
+    margin: 0px 0px 8px;
+}
+
+#section-3 .card-left .stars-image span {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: black;
+    font-family: sans-serif;
+
+}
+
+#section-3 .card-left .stars-image .container-stars {
+    margin-left: 120px;
+}
+
+#section-3 .card-left .stars-image .star {
+    width: 30px;
+    float: left;
+}
+
+#section-3 .card-left .stars-image .star img {
+    width: 100%;
+    display: block;
+}
+
+
+/* ====================rate5 ================= */
+#section-3 .card-left .rate5 {
+    padding: 10px 20px;
+    position: relative;
+}
+
+#section-3 .card-left .rate5 .border-1 {
+    width: 90%;
+    height: 10px;
+    background-color: #E6E7EB;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+#section-3 .card-left .rate5 .border-2 {
+    width: 74%;
+    height: 10px;
+    background-color: #F0B100;
+    border-radius: 10px;
+}
+
+.rate5::before {
+    content: '5★';
+    position: absolute;
+    top: 9;
+    left: 0;
+}
+
+.rate5::after {
+    content: '78%';
+    position: absolute;
+    top: 9;
+    right: 1;
+}
+
+/* ====================rate4 ================= */
+
+#section-3 .card-left .rate4 {
+    padding: 10px 20px;
+    position: relative;
+}
+
+#section-3 .card-left .rate4 .border-1 {
+    width: 90%;
+    height: 10px;
+    background-color: #E6E7EB;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+#section-3 .card-left .rate4 .border-2 {
+    width: 15%;
+    height: 10px;
+    background-color: #F0B100;
+    border-radius: 10px;
+}
+
+.rate4::before {
+    content: '4★';
+    position: absolute;
+    top: 9;
+    left: 0;
+}
+
+.rate4::after {
+    content: '15%';
+    position: absolute;
+    top: 9;
+    right: 1;
+}
+
+
+/* ====================rate3 ================= */
+
+#section-3 .card-left .rate3 {
+    padding: 10px 20px;
+    position: relative;
+}
+
+#section-3 .card-left .rate3 .border-1 {
+    width: 90%;
+    height: 10px;
+    background-color: #E6E7EB;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+#section-3 .card-left .rate3 .border-2 {
+    width: 5%;
+    height: 10px;
+    background-color: #F0B100;
+    border-radius: 10px;
+}
+
+.rate3::before {
+    content: '3★';
+    position: absolute;
+    top: 9;
+    left: 0;
+}
+
+.rate3::after {
+    content: '5%';
+    position: absolute;
+    top: 9;
+    right: 1;
+}
+
+/* ====================rate2 ================= */
+
+#section-3 .card-left .rate2 {
+    padding: 10px 20px;
+    position: relative;
+}
+
+#section-3 .card-left .rate2 .border-1 {
+    width: 90%;
+    height: 10px;
+    background-color: #E6E7EB;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+#section-3 .card-left .rate2 .border-2 {
+    width: 1.5%;
+    height: 10px;
+    background-color: #F0B100;
+    border-radius: 10px;
+}
+
+.rate2::before {
+    content: '2★';
+    position: absolute;
+    top: 9;
+    left: 0;
+}
+
+.rate2::after {
+    content: '1.5%';
+    position: absolute;
+    top: 9;
+    right: 1;
+}
+
+
+/* ====================rate1 ================= */
+
+#section-3 .card-left .rate1 {
+    padding: 10px 20px;
+    position: relative;
+}
+
+#section-3 .card-left .rate1 .border-1 {
+    width: 90%;
+    height: 10px;
+    background-color: #E6E7EB;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+#section-3 .card-left .rate1 .border-2 {
+    width: 0.5%;
+    height: 10px;
+    background-color: #F0B100;
+    border-radius: 10px;
+}
+
+.rate1::before {
+    content: '1★';
+    position: absolute;
+    top: 9;
+    left: 0;
+}
+
+.rate1::after {
+    content: '0.5%';
+    position: absolute;
+    top: 9;
+    right: 1;
+}
+
+/* ====================end rate style================= */
+
+#section-3 .card-left .title-card-left {
+    text-align: center;
+    border-top: 1px solid #D1D5DB;
+    padding-top: 24px;
+    margin-top: 32px;
+
+}
+
+#section-3 .card-left .title-card-left h5 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: black;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#section-3 .card-left .title-card-left span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: black;
+    font-family: sans-serif;
+}
+
+#section-3 .card-left .title-card-left .recommend {
+    float: left;
+    width: 50%;
+}
+
+#section-3 .card-left .title-card-left .rating {
+    float: right;
+    width: 50%;
+}
+
+#section-3 .card-right {
+    width: 55%;
+    background-color: white;
+    border: 2px solid #E6E7EB;
+    border-radius: 20px;
+    float: right;
+    position: relative;
+    padding: 32px;
+    margin-bottom: 24px;
+    position: relative;
+}
+
+#section-3 .card-right .avater-card {
+    float: left;
+    width: 7%;
+    margin-right: 16px;
+}
+
+#section-3 .card-right .avater-card img {
+    width: 100%;
+    display: block;
+    border-radius: 50%;
+    border: 2px solid #A683FF;
+}
+
+
+#section-3 .card-right .avater-name {
+    float: left;
+}
+
+#section-3 .card-right .avater-name h4 {
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color: black;
+    font-family: sans-serif;
+}
+
+#section-3 .card-right .avater-name span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: black;
+    font-family: sans-serif;
+}
+
+#section-3 .card-right .verified-card {
+    float: right;
+    text-align: center;
+}
+
+#section-3 .card-right .verified-card .head-verified {
+    background-color: #ECE9FF;
+    padding: 5px;
+    color: #5D0FC0;
+    border-radius: 20px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+#section-3 .card-right .verified-card .edite {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: black;
+    font-family: sans-serif;
+}
+
+#section-3 .card-right .images-stars {
+    margin-left: 60px;
+}
+
+#section-3 .card-right .images-stars .icon-star {
+    float: left;
+    width: 4%;
+}
+
+#section-3 .card-right .images-stars .icon-star img {
+    width: 70%;
+    display: block;
+}
+
+#section-3 .card-right .images-stars .icon-star span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: black;
+    font-family: sans-serif;
+}
+
+#section-3 .card-right p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    color: black;
+    font-family: sans-serif;
+
+}
+
+#section-3 .btn-section3 {
+    float: right;
+    padding: 12px 32px;
+    color: white;
+    width: 150px;
+    margin: 20px auto;
+    background-color: #7f22fe;
+    border: 2px solid #7f22fe;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+/* ===========First effect========== */
+#section-3 .btn-section3:hover {
+    background-color: white;
+    color: #7f22fe;
+    transition: all 0.2s;
+}
+
+
+
+/* =============End Section Customers Say=======================  */
+
+
+
+/* =============Start Section Complete Your Setup=======================  */
+
+#section-4 {
+    margin-top: 60px;
+    padding: 80px 0px;
+    background-color: #F7F6FF;
+}
+
+#section-4 .info-section-4 {
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+#section-4 .info-section-4 h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    color: black;
+    font-family: sans-serif;
+    margin: 0px 0px 16px;
+}
+
+#section-4 .info-section-4 h2 span {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #8023FF;
+}
+
+#section-4 .info-section-4 p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: black;
+    font-family: sans-serif;
+}
+
+#section-4 .cards-setup {
+    background-color: white;
+    border: 2px solid #E6E7EB;
+    float: left;
+    padding: 24px;
+    width: 20%;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+#section-4 .cards-setup h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    color: black;
+    font-family: sans-serif;
+}
+
+#section-4 .cards-setup p {
+    font-weight: 400;
+    line-height: 24px;
+    color: black;
+    font-family: sans-serif;
+    margin: 0px 0px 16px 0px;
+}
+
+#section-4 .image-setup {
+    position: relative;
+}
+
+#section-4 .image-setup img {
+    width: 100%;
+    display: block;
+    border-radius: 20px;
+    transition: transform 0.5s;
+}
+
+/* ===========First effect========== */
+#section-4 .image-setup img:hover {
+    transform: scale(1.03);
+}
+
+
+#section-4 .status-title {
+    padding: 4px 12px;
+    color: white;
+    background-color: #00BBA7;
+    border-radius: 20px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: sans-serif;
+}
+
+#section-4 .cards-setup .price-card {
+    float: left;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    font-family: sans-serif;
+    color: black;
+
+}
+
+#section-4 .cards-setup .add-card {
+    background-color: #8E51FF;
+    border-radius: 20px;
+    color: white;
+    padding: 8px 16px;
+    float: right;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: sans-serif;
+}
+
+#section-4 .status-title.color-green {
+    background-color: #00C951;
+}
+
+#section-4 .status-title.color-blue {
+    background-color: #00B8DB;
+}
+
+#section-4 .status-title.color-orange {
+    background-color: #FF6900;
+}
+
+#section-4 .fot-section {
+    width: 170px;
+    text-align: center;
+    background-color: #F7F6FF;
+    border: 2px solid #8023FF;
+    border-radius: 40px;
+    color: #8023FF;
+    padding: 16px 32px;
+    margin: 60px auto;
+    font-weight: 600;
+    font-family: sans-serif;
+    transition: all 0.4s;
+}
+
+/* ===========Second effect========== */
+#section-4 .fot-section:hover {
+    background-color: #8023FF;
+    color: white;
+
+}
+
+/* =============End Section Complete Your Setup=======================  */
+
+
+/* =============Start Section Footer=======================  */
+
+#footer {
+    background-color: #111828;
+    padding: 64px 0px 32px;
+    color: white;
+    font-family: sans-serif;
+}
+
+#footer .fot-card {
+    width: 23%;
+    float: left;
+    margin-right: 30px;
+}
+
+#footer .fot-card .box-image {
+    background-color: #8023FF;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-right: 8px;
+}
+#footer .fot-card .box-image img {
+    width: 70%;
+    margin: 5px auto;
+    display: block;
+}
+#footer .fot-card  span {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    display: inline-block;
+    
+}
+#footer .fot-card  p {
+    font-weight: 400;
+    line-height: 26px;
+}
+
+#footer .fot-card .icon-footer {
+    width: 10%;
+    padding: 10px;
+    background-color: #1E2938;
+    border-radius: 10px;
+    float: left;
+    margin-right: 20px;
+}
+#footer .fot-card .icon-footer img {
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+
+#footer .fot-card .icon-footer.color-blue{
+    transition: background-color 0.5s;
+}
+/* ===========First effect========== */
+#footer .fot-card .icon-footer.color-blue:hover {
+    background-color: #1977F2;
+}
+
+#footer .fot-card .icon-footer.color-light-blue{
+    transition: background-color 0.5s;
+}
+/* ===========Second effect========== */
+#footer .fot-card .icon-footer.color-light-blue:hover {
+    background-color: #1DA1F2;
+}
+
+#footer .fot-card .icon-footer.color-bright-red{
+    transition: background-color 0.5s;
+}
+/* ===========Three effect========== */
+#footer .fot-card .icon-footer.color-bright-red:hover {
+    background-color: #E4405F;
+}
+
+
+#footer .fot-card .icon-footer.color-red{
+    transition: background-color 0.5s;
+}
+/* ===========Three effect========== */
+#footer .fot-card .icon-footer.color-red:hover {
+    background-color: #FF0000;
+}
+
+#footer .fot-card-2 {
+    width: 23%;
+    float: left;
+    margin-right: 20px;
+}
+
+
+#footer .fot-card-2 .info-card h3 {
+    margin: 0px 0px 24px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+#footer .fot-card-2 .ul-card li  {
+    margin: 0px 0px 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #99a1af;
+}
+/* ===========First effect========== */
+
+#footer .fot-card-2 .ul-card li span {
+    transition: color 0.3s;
+}
+
+#footer .fot-card-2 .ul-card li span:hover {
+    color: white;
+}
+
+#footer .fot-card-2 .ul-card li.no-margin {
+    margin: 0px;
+}
+
+#footer .fot {
+    padding: 32px 0px 0px;
+    border-top: 2px solid #1E2938;
+    margin-top: 40px;
+}
+
+
+#footer .fot .title-fot {
+    float: left;
+    width: 45%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+#footer .fot .pay-fot {
+    float: right;
+    width: 45%;
+}
+
+#footer .fot .pay-fot .box-image {
+    float: right;
+    background-color: white;
+    width: 8%;
+    border-radius: 8px;
+    padding: 15px;
+    margin-right: 20px;
+}
+#footer .fot .pay-fot .image-fot {
+    margin: auto;
+}
+
+#footer .fot .pay-fot .image-fot img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+
+#footer .fot .pay-fot .box-image-ms {
+    float: right;
+    background-color: white;
+    width: 8%;
+    border-radius: 8px;
+    padding: 8px;
+    margin-right: 20px;
+}
+#footer .fot .pay-fot .image-fot-ms {
+    margin: auto;
+}
+
+#footer .fot .pay-fot .image-fot-ms img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+
+
+/* =============End Section Footer=======================  */
