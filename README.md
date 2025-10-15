@@ -48,6 +48,6 @@ Responsiveness will be added in future updates.
 
 ### 🌐 Live Demo
 
-🔗 [View DJI Mavic 4 Pro Landing Page on GitHub Pages](https://amressam101.github.io/DJI-Mavic-4-Pro-the-ultimate-)
+🔗 [View DJI Mavic 4 Pro Landing Page on GitHub Pages](https://amressam101.github.io/DJI-Mavic-4-Pro-the-ultimate-Drone/)
 
 👨‍💻 **Developed by [Amr Essam Abdel Halim](https://github.com/amressam101)**
